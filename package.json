@@ -1,0 +1,20 @@
+{
+  "name": "node.js-workshop",
+  "version": "1.0.0",
+  "description": "A workshop on Node.js, Express.js and Server.io",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Mcvean Soans",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
